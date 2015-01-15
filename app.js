@@ -1,5 +1,6 @@
-angular.module('flapperNews', []).controller('MainCtrl'[
-	'$scope',
-	function($scope){
-		$scope.test = "Hello World";
+angular.module('flapperNews', [])
+.controller('MainCtrl', [
+'$scope',
+function($scope){
+$scope.test = "Hello World";
 }]);
